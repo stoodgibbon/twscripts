@@ -340,7 +340,7 @@ function fnInjectOverviewBar() {
 	var lang_img = '';
 	if (lang == "greek") { lang_img = '<img title="Ελληνικά" style="cursor:help;" height="20px" width="30px" src="https://dl.dropboxusercontent.com/s/ivyojb6w9cb9pem/flag_greece.gif">'; }
 	else if (lang == "english") { lang_img = '<img height="20px" style="cursor:help;" title="English/American" width="30px" src="https://dl.dropboxusercontent.com/s/y6tn9ko0g8k2xfx/flagenglezicon.gif">'; }
-
+	else if (lang == "dutch") { lang_img = '<img height="20px" style="cursor:help;" title="English/American" width="30px" src="https://raw.githubusercontent.com/stoodgibbon/twscripts/master/Netherlands%20flag-M-anim.gif">'; }
 	var myself = this;
 	var win = (window.main || window), doc = win.document, $ = win.$;
 	var chainedFunc = null;
@@ -375,7 +375,7 @@ function fnInjectOverviewBar() {
 	tsalkaponecell += '<br><br><center><font color="blue"><b><u>' + tsalkapone_trans.general.available + '</u></b></font></center>';
 	tsalkaponecell += '<input type="radio"  name="language" value="greek" id="greek_lang" ><img title="Greek \n\nBy Tsalkapone" style="cursor:help;" height="20px" width="30px" src="https://dl.dropboxusercontent.com/s/ivyojb6w9cb9pem/flag_greece.gif"><br>';
 	tsalkaponecell += '<input type="radio"  name="language" value="english" id="english_lang" checked><img height="20px" style="cursor:help;" title="English/American \n\nBy Tsalkapone" width="30px" src="https://dl.dropboxusercontent.com/s/y6tn9ko0g8k2xfx/flagenglezicon.gif"><br>';
-	tsalkaponecell += '<input type="radio"  name="language" value="dutch" id="dutch_lang" ><img height="20px" style="cursor:help;" title="Dutch \n\nBy Stoodgibbon" width="30px" src="https://raw.githubusercontent.com/stoodgibbon/tribalwars/master/Netherlands%20flag-M-anim.gif"><br>';
+	tsalkaponecell += '<input type="radio"  name="language" value="dutch" id="dutch_lang" ><img height="20px" style="cursor:help;" title="Dutch \n\nBy Stoodgibbon" width="30px" src="https://raw.githubusercontent.com/stoodgibbon/twscripts/master/Netherlands%20flag-M-anim.gif"><br>';
 	tsalkaponecell += '</span></td></tr>';
 	tsalkaponecell += '</tbody></table></div></td><td>';
 	tsalkaponecell += '<div id="tsalresult_content" class="target-select clearfix vis"><h4><font color=darkgreen><center>Tsalkapone. ' + tsalkapone_trans.general.res_list + '</center></font></h4>';
